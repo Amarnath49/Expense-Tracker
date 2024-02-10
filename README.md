@@ -1,16 +1,22 @@
-# expenses_app
+# Expense Tracker
 
-A new Flutter project.
+Expense Tracker is a Flutter application that helps you keep track of your daily expenses. You can add and delete expenses with categories and dates, and view a chart that shows how much you spend on each category. Expense Tracker is a simple and easy-to-use app that helps you monitor your spending.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add and delete expenses with categories, amounts, and dates
+- View a chart of your expenses by category
+- Switch between dark and light themes
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To install and run this app, you need to have [Flutter](https://flutter.dev/docs/get-started/install) and [Dart](https://dart.dev/get-dart) installed on your machine. Then, clone this repository and navigate to the project folder. Run the following commands to get the dependencies and launch the app:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+## Usage
+
+Add your expenses by tapping the "+" button on the top right corner. You can enter the category, amount, and date of your expense, and optionally add a note and the category of the expense. To delete an expense, swipe it to the left or right. The Bar chart will dynamically changes when you add a expense to some category.The theme of the app changes according to dark mode and bright mode .
